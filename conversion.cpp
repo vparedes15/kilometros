@@ -3,6 +3,7 @@
 int main (void)
 {
   double millas=0;
+  std::cout.precision(15);
   std::cout << "Hola, ingrese millas\n";
   std::cin  >> millas;
   std::cout << "Eso en kilometros sería:\n";
